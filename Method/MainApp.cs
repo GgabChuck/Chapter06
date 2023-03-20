@@ -18,7 +18,10 @@ namespace Method
 
         static void Main(string[] args)
         {
+            // Calculator a = new Calculator();
+
             int result = Calculator.Plus(3, 4);
+            //int result = a.Plus(3, 4);
             Console.WriteLine(result);
 
             result = Calculator.Minus(5, 2);
