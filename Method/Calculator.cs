@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Calculator
+namespace Method
 {
-    class MaipApp
+    class Calculator
     {
         static void Main(string[] args)
         {
