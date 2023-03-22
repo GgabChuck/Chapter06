@@ -23,15 +23,15 @@ namespace RefReturn
             ref int ref_local_price = ref carrot.GetPrice();
             int normal_local_price = carrot.GetPrice();
 
-            carrot.Printprice();
-            Console.WriteLine($"Ref Local Price :{ref_local_price}");
-            Console.WriteLine($"Normal Local Price :{normal_local_price}");
+            carrot.Printprice(); //100
+            Console.WriteLine($"Ref Local Price :{ref_local_price}"); //100
+            Console.WriteLine($"Normal Local Price :{normal_local_price}"); //100
 
             ref_local_price = 200;
 
-            carrot.Printprice();
-            Console.WriteLine($"Ref Local Price :{ref_local_price}");
-            Console.WriteLine($"Normal Local Price :{normal_local_price}");
+            carrot.Printprice(); //200
+            Console.WriteLine($"Ref Local Price :{ref_local_price}"); //200
+            Console.WriteLine($"Normal Local Price :{normal_local_price}"); //100
         }
     }
 }
