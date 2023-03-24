@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingOut", "UsingOut\UsingO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overloading", "Overloading\Overloading.csproj", "{47ABCC6D-9C76-40E0-A24F-B7110497F738}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingParams", "UsingParams\UsingParams.csproj", "{29BCBE76-CDC6-472C-926D-EBAC6FFAE972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{47ABCC6D-9C76-40E0-A24F-B7110497F738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47ABCC6D-9C76-40E0-A24F-B7110497F738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47ABCC6D-9C76-40E0-A24F-B7110497F738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BCBE76-CDC6-472C-926D-EBAC6FFAE972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BCBE76-CDC6-472C-926D-EBAC6FFAE972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BCBE76-CDC6-472C-926D-EBAC6FFAE972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BCBE76-CDC6-472C-926D-EBAC6FFAE972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
